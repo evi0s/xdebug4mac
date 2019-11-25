@@ -26,6 +26,6 @@ COPY entrypoint.sh /entrypoint.sh
 
 RUN chmod +x /entrypoint.sh
 
-EXPOSE 80
+EXPOSE 22 80 3306
 
 ENTRYPOINT /entrypoint.sh
