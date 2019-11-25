@@ -26,11 +26,11 @@ docker run -it -d \
 
 Following are environs:
 
-* entrypoint debug mode: specified by DEBUG
-* Xdebug remote port: specified by XDEBUGPORT, default: 9010
-* Database name: specified by DBNAME, default: user
-* Database username: specified by DBUSER, default user
-* Database password: specified by DBPASS, default random password
+* **entrypoint debug mode**: specified by `DEBUG`
+* **Xdebug remote port**: specified by `XDEBUGPORT`, default: 9010
+* **Database name**: specified by `DBNAME`, default: user
+* **Database username**: specified by `DBUSER`, default user
+* **Database password**: specified by `DBPASS`, default random password
 
 Example:
 
@@ -49,9 +49,9 @@ docker run -it -d \
     xdebug4mac
 ```
 
-If DBPASS not set, you can simply run `docker logs ${your_container_name}` to see the default password of the database.
+If `DBPASS` not set, you can simply run `docker logs ${your_container_name}` to see the default password of the database.
 
-There is also a default ssh user: `user:user` for PHPStorm remote server, which means you can use ssh to have a shell:
+There is also a default ssh user: `user:user` for PHPStorm remote server, which means you can use ssh to gain a shell:
 
 ```
 $ ssh user@localhost -p 60022
