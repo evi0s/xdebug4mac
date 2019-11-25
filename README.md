@@ -2,6 +2,31 @@
 
 Xdebug For Docker-for-Mac
 
+## Versions
+
+### PHP
+
+```
+PHP 7.3.11-1~deb10u1 (cli) (built: Oct 26 2019 14:14:18) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.3.11, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.3.11-1~deb10u1, Copyright (c) 1999-2018, by Zend Technologies
+    with Xdebug v2.7.0RC2, Copyright (c) 2002-2019, by Derick Rethans
+```
+
+### Apache
+
+```
+Server version: Apache/2.4.38 (Debian)
+Server built:   2019-10-15T19:53:42
+```
+
+### MySQL
+
+```
+mysql  Ver 15.1 Distrib 10.3.18-MariaDB, for debian-linux-gnu (x86_64) using readline 5.2
+```
+
 ## Usage
 
 ### Build
