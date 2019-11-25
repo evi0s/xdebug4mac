@@ -29,8 +29,8 @@ Following are environs:
 * **entrypoint debug mode**: specified by `DEBUG`
 * **Xdebug remote port**: specified by `XDEBUGPORT`, default: 9010
 * **Database name**: specified by `DBNAME`, default: user
-* **Database username**: specified by `DBUSER`, default user
-* **Database password**: specified by `DBPASS`, default random password
+* **Database username**: specified by `DBUSER`, default: user
+* **Database password**: specified by `DBPASS`, default: random password
 
 Example:
 
